@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "name": "Haleemah Malik",
+    "titleBar": "portfolio — Haleemah Malik",
+    "promptLine": "haleemah@pakistan:~/portfolio$ cat welcome.txt",
+    "welcomeFile": "welcome.txt"
+  },
+  "statusBar": {
+    "branch": "main",
+    "errors": 0,
+    "warnings": 0,
+    "encoding": "UTF-8",
+    "indent": "Spaces: 2",
+    "mode": "Plain Text"
+  },
+  "contact": {
+    "email": "malikhaleemah@gmail.com",
+    "location": "Pakistan"
+  },
+  "sections": [
+    {
+      "id": "about",
+      "label": "About Me",
+      "icon": "user",
+      "explorerTitle": "ABOUT",
+      "folder": "about",
+      "files": [
+        {
+          "id": "welcome",
+          "name": "welcome.txt",
+          "lines": [
+            "Hey. You opened my portfolio.",
+            "",
+            "Name: Haleemah Malik",
+            "Status: Student (yes, still surviving)",
+            "Location: Pakistan — proud patriot, zero apologies",
+            "Current vibe: writer, baker, part-time chaos engineer",
+            "",
+            "I build games in C++, write 500-page novels, and somehow",
+            "still show up on the Dean's List. Make it make sense.",
+            "",
+            "Federal Board 3rd position holder — twice. FAST Dean's List.",
+            "So yes, I can academically perform and emotionally unravel.",
+            "",
+            "Side quests unlocked:",
+            "  • Author of The Sky We Own",
+            "  • Blogger on Aware Pakistan",
+            "  • Baker (my kitchen has a higher success rate than my sleep schedule)",
+            "  • Basic Arabic, Sarf & Nahaw (still learning, still trying)",
+            "",
+            "Pick a file from the explorer. I promise it's readable text,",
+            "not fake TypeScript. You're welcome."
+          ]
+        },
+        {
+          "id": "education",
+          "name": "education.txt",
+          "lines": [
+            "EDUCATION",
+            "=========",
+            "",
+            "BSCS @ FAST-NU",
+            "Expected graduation: 2029",
+            "",
+            "Highlights:",
+            "  • Federal Board — 3rd position (yes, twice)",
+            "  • FAST Dean's List",
+            "",
+            "Translation: I study computer science by day and pretend",
+            "I'm not emotionally attached to my GPA by night."
+          ]
+        },
+        {
+          "id": "skills",
+          "name": "skills.txt",
+          "lines": [
+            "SKILLS & RANDOM TALENTS",
+            "========================",
+            "",
+            "Tech:",
+            "  C++ · OOP · Git · GitHub · Linux (Ubuntu) · VS Code · Visual Studio",
+            "",
+            "Writing:",
+            "  Contemporary fiction · Scripts · Blogs · Long-form suffering (novels)",
+            "",
+            "Languages:",
+            "  English · Urdu · Arabic (basic) · Sarf · Nahaw",
+            "",
+            "Other:",
+            "  Baking — certified stress relief",
+            "  Patriotism — enabled by default, cannot uninstall"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "icon": "code",
+      "explorerTitle": "PROJECTS",
+      "folder": "projects",
+      "files": [
+        {
+          "id": "tumble-pop",
+          "name": "tumble-pop.cpp",
+          "image": "assets/tumble-pop.png",
+          "lines": [
+            "TUMBLE POP CLONE",
+            "================",
+            "",
+            "A 2D pixel-art platformer inspired by the arcade classic.",
+            "Ghosts, skeletons, floating platforms, and questionable life choices.",
+            "",
+            "Stack: C++ · Linux (Ubuntu)",
+            "",
+            "Built from scratch because apparently sleep is optional.",
+            "",
+            "[ Drop screenshot in assets/tumble-pop.png ]"
+          ]
+        },
+        {
+          "id": "metal-slug",
+          "name": "metal-slug.cpp",
+          "image": "assets/metal-slug.png",
+          "lines": [
+            "METAL SLUG — STYLE GAME",
+            "=======================",
+            "",
+            "Side-scrolling action shooter with that retro military-industrial",
+            "aesthetic. Pier, submarines, boss bars — the whole deal.",
+            "",
+            "Stack: C++ · OOP · Git · GitHub · Visual Studio",
+            "",
+            "We learned OOP the hard way: by making things explode.",
+            "",
+            "[ Drop screenshot in assets/metal-slug.png ]"
+          ]
+        },
+        {
+          "id": "aakhri-mor",
+          "name": "aakhri-mor.cpp",
+          "image": "assets/aakhri-mor.png",
+          "lines": [
+            "آخری موڑ — AAKHRI MOR",
+            "=====================",
+            "",
+            "\"The Last Turn\" — a game set on the streets of Pakistan.",
+            "Truck art, rickshaws, dhabas, and that one vendor who definitely",
+            "overcharges for apples. Culturally accurate. Emotionally devastating.",
+            "",
+            "Stack: C++ · Vectors · VS Code · Git · GitHub",
+            "",
+            "Probably the most Pakistani thing I've ever compiled.",
+            "",
+            "[ Drop screenshot in assets/aakhri-mor.png ]"
+          ]
+        },
+        {
+          "id": "text-editor",
+          "name": "text-editor.cpp",
+          "lines": [
+            "TEXT EDITOR",
+            "===========",
+            "",
+            "A custom text editor built in C++.",
+            "Because why use Notepad when you can suffer and build your own?",
+            "",
+            "Stack: C++",
+            "",
+            "[ Add a link or screenshot in content.json when ready ]"
+          ]
+        },
+        {
+          "id": "golden-era-script",
+          "name": "golden-era.ms",
+          "lines": [
+            "THE GOLDEN ERA OF MUSLIMS — SCRIPT",
+            "==================================",
+            "",
+            "Best thing I've ever written. Not up for debate.",
+            "",
+            "A historical script exploring the golden era of Muslim civilization.",
+            "More passion in this file than in most of my semester projects combined.",
+            "",
+            "[ Add link or details in content.json when you're ready to share ]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blogs",
+      "label": "Blogs",
+      "icon": "article",
+      "explorerTitle": "BLOGS",
+      "folder": "blogs",
+      "files": [
+        {
+          "id": "jinnahs-pakistan",
+          "name": "jinnahs-pakistan.md",
+          "url": "https://awarepakistan.com/featured/106216/jinnahs-pakistan-islamic-state-or-secular-nation/",
+          "lines": [
+            "Jinnah's Pakistan: Islamic State or Secular Nation?",
+            "====================================================",
+            "",
+            "Published on Aware Pakistan",
+            "",
+            "My take on one of the most debated questions in our history.",
+            "Spoiler: it's not a yes/no answer, and anyone who says otherwise",
+            "is probably selling something.",
+            "",
+            "Read it here:",
+            "https://awarepakistan.com/featured/106216/jinnahs-pakistan-islamic-state-or-secular-nation/",
+            "",
+            "---",
+            "TO ADD MORE BLOGS:",
+            "Copy the block below into the \"files\" array in content.json",
+            "under the blogs section. The explorer updates automatically.",
+            "",
+            "Example:",
+            "{",
+            "  \"id\": \"your-slug\",",
+            "  \"name\": \"your-article.md\",",
+            "  \"url\": \"https://your-link.com\",",
+            "  \"lines\": [\"Title\", \"\", \"Your teaser text...\", \"https://link\"]",
+            "}"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book",
+      "label": "Book",
+      "icon": "book",
+      "explorerTitle": "BOOK",
+      "folder": "book",
+      "files": [
+        {
+          "id": "the-sky-we-own",
+          "name": "the-sky-we-own.txt",
+          "image": "assets/book-cover.png",
+          "lines": [
+            "THE SKY WE OWN",
+            "==============",
+            "by Haleemah Malik",
+            "",
+            "Genre: Contemporary Fiction · 500 pages",
+            "",
+            "Tagline: \"When they fight, even death surrenders.\"",
+            "",
+            "A novel about the illegal occupation of Kashmir — told through",
+            "fiction because sometimes the truth needs a story to breathe.",
+            "",
+            "This isn't a light read. It's the kind of book that sits with you",
+            "after you close it. I wrote every page like it mattered, because it does.",
+            "",
+            "ORDER (Pakistan only — Rs. 1,000)",
+            "--------------------------------",
+            "",
+            "Order via Dastaan / Mera Qissa:",
+            "https://www.meraqissa.com/book/1821",
+            "",
+            "Google Form (add your link in content.json → bookOrder.googleForm):",
+            "",
+            "[ Your Google Form link goes here — edit content.json ]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "icon": "mail",
+      "explorerTitle": "CONTACT",
+      "folder": "contact",
+      "files": [
+        {
+          "id": "contact",
+          "name": "contact.txt",
+          "lines": [
+            "CONTACT",
+            "=======",
+            "",
+            "Email: malikhaleemah@gmail.com",
+            "Location: Pakistan",
+            "",
+            "Want to talk books, games, code, or Kashmir?",
+            "Want to commission something or just say hi?",
+            "",
+            "Slide into my inbox. I actually reply.",
+            "(Unless you're a bot. Bots get ignored. Humans get tea.)"
+          ]
+        }
+      ]
+    }
+  ],
+  "bookOrder": {
+    "price": "Rs. 1,000",
+    "region": "Pakistan only",
+    "dastaanUrl": "https://www.meraqissa.com/book/1821",
+    "googleForm": ""
+  }
+}
