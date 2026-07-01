@@ -48,6 +48,7 @@
           "name": "education.txt",
           "lines": [
             "THE H-11 CHRONICLES: ",
+            "",
             "The only thing that interferes with my learning,",
             "is my education - Albert Einstein",
             "",
@@ -66,21 +67,29 @@
           "id": "skills",
           "name": "skills.txt",
           "lines": [
-            "SKILLS & RANDOM TALENTS",
-            "========================",
+            "SKILLS: googling efficiently and pretending it was planned."
             "",
-            "Tech:",
-            "  C++ · OOP · Git · GitHub · Linux (Ubuntu) · VS Code · Visual Studio",
+             "",
+          "Tech:",
+          "  C++ · OOP · Git · GitHub · Linux (Ubuntu)",
+          "  HTML · CSS · VS Code · Visual Studio · Canva",
+           "  Video editing · Vibe coding (professionally unprofessional)",
+           "",
+           "  Special abilities:",
+           "  • Installing and uninstalling Windows (7+ successful attempts)",
+           "  • Losing files and learning from the emotional damage",
             "",
             "Writing:",
-            "  Contemporary fiction · Scripts · Blogs · Long-form suffering (novels)",
+            "  Contemporary fiction · Scripts · Blogs · Articles",
+            "  Novel writing (happen to be one of Pakistan's youngest novelists :p)",
+            "  SEO writing",
             "",
             "Languages:",
             "  English · Urdu · Arabic (basic) · Sarf · Nahaw",
             "",
             "Other:",
-            "  Baking — certified stress relief",
-            "  Patriotism — enabled by default, cannot uninstall"
+            "  Baking — my backup career if computers stop cooperating",
+            "  Patriotism — built-in feature, not an optional plugin"
           ]
         }
       ]
