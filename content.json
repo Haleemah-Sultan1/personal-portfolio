@@ -18,32 +18,24 @@
     "location": "Pakistan"
   },
   "sections": [
-    {
-      "id": "about",
-      "label": "About Me",
-      "icon": "user",
-      "explorerTitle": "ABOUT",
-      "folder": "about",
-      "files": [
-        {
-          "id": "welcome",
-          "name": "welcome.txt",
-          "lines": [
-           "السلام علیکم",
-  "",
-  "I'm Haleemah Malik. A computer science student from Pakistan.",
-  "",
-            "I like creating problems for solutions:",
-"breaking things, fixing things, and learning why they broke.",
-""
-            "",
-"Somewhere between a developer, a writer, and a curious mind",
-"who enjoys figuring out how things work.",
-"",
-"This little corner is a collection of things I've built, learned,",
-"and explored along the way."
-          ]
-        },
+   {
+  "id": "welcome",
+  "name": "welcome.txt",
+  "lines": [
+    "السلام علیکم",
+    "",
+    "I'm Haleemah Malik. A computer science student from Pakistan.",
+    "",
+    "I like creating problems for solutions:",
+    "breaking things, fixing things, and learning why they broke.",
+    "",
+    "Somewhere between a developer, a writer, and a curious mind",
+    "who enjoys figuring out how things work.",
+    "",
+    "This little corner is a collection of things I've built, learned,",
+    "and explored along the way."
+  ]
+},
         {
           "id": "education",
           "name": "education.txt",
