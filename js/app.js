@@ -24,7 +24,7 @@ function runBootSequence(onDone) {
   }
 
   function typeName() {
-    const name = 'حليمة ملك';
+    const name = ' حليمة ملک';
     let i = 0;
     const iv = setInterval(() => {
       nameEl.textContent = name.slice(0, ++i);
