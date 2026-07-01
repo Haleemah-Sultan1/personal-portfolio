@@ -2,7 +2,59 @@
  * Haleemah Malik Portfolio — Editor UI
  * All editable content lives in content.json
  */
+function runBootSequence(onDone) {
+  const log = document.getElementById('splashLog');
+  const nameEl = document.getElementById('splashName');
+  const cursor = document.getElementById('splashCursor');
+  const splash = document.getElementById('splash-screen');
 
+  const lines = [
+    'booting portfolio.exe...',
+    'mounting /projects /blogs /book...',
+    'compiling personality.cpp... done'
+  ];
+  let li = 0;
+
+  function typeLine() {
+    if (li >= lines.length) { setTimeout(typeName, 500); return; }
+    const p = document.createElement('div');
+    p.textContent = lines[li++];
+    log.appendChild(p);
+    setTimeout(typeLine, 550);
+  }
+
+  function typeName() {
+    const name = 'حليمة ملك';
+    let i = 0;
+    const iv = setInterval(() => {
+      nameEl.textContent = name.slice(0, ++i);
+      if (i >= name.length) {
+        clearInterval(iv);
+        setTimeout(() => {
+          cursor.style.display = 'none';
+          setTimeout(fadeOut, 1600);
+        }, 500);
+      }
+    }, 260);
+  }
+
+  function fadeOut() {
+    splash.style.opacity = '0';
+    setTimeout(() => {
+      splash.classList.add('splash-hidden');
+      if (onDone) onDone();
+    }, 1000);
+  }
+
+  typeLine();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  runBootSequence(() => {
+    // your existing init code (file tree, tabs, etc.) can go here,
+    // or just leave this empty if your app already inits on DOMContentLoaded separately
+  });
+});
 const ICONS = {
   user: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>`,
   code: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`,
