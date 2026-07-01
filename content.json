@@ -67,17 +67,17 @@
           "id": "skills",
           "name": "skills.txt",
           "lines": [
-            "SKILLS: googling efficiently and pretending it was planned."
+            "SKILLS: googling efficiently and pretending it was planned.",
             "",
-             "",
-          "Tech:",
-          "  C++ · OOP · Git · GitHub · Linux (Ubuntu)",
-          "  HTML · CSS · VS Code · Visual Studio · Canva",
-           "  Video editing · Vibe coding (professionally unprofessional)",
-           "",
-           "  Special abilities:",
-           "  • Installing and uninstalling Windows (7+ successful attempts)",
-           "  • Losing files and learning from the emotional damage",
+            "",
+            "Tech:",
+            "  C++ · OOP · Git · GitHub · Linux (Ubuntu)",
+            "  HTML · CSS · VS Code · Visual Studio · Canva",
+            "  Video editing · Vibe coding (professionally unprofessional)",
+            "",
+            "  Special abilities:",
+            "  • Installing and uninstalling Windows (7+ successful attempts)",
+            "  • Losing files and learning from the emotional damage",
             "",
             "Writing:",
             "  Contemporary fiction · Scripts · Blogs · Articles",
@@ -90,6 +90,8 @@
             "Other:",
             "  Baking — my backup career if computers stop cooperating",
             "  Patriotism — built-in feature, not an optional plugin"
+          ]
+        }
       ]
     },
     {
