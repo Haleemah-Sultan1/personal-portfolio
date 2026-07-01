@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "Haleemah Malik",
-    "titleBar": "portfolio — Haleemah Malik",
-    "promptLine": "haleemah@pakistan:~/portfolio$ cat welcome.txt",
+    "titleBar": "portfolio Haleemah Malik",
+    "promptLine": "haleemah@pakistan:~/portfolio$ welcome.txt",
     "welcomeFile": "welcome.txt"
   },
   "statusBar": {
@@ -29,27 +29,19 @@
           "id": "welcome",
           "name": "welcome.txt",
           "lines": [
-            "Hey. You opened my portfolio.",
+           "السلام علیکم",
+  "",
+  "I'm Haleemah Malik. A computer science student from Pakistan.",
+  "",
+            "I like creating problems for solutions:",
+"breaking things, fixing things, and learning why they broke.",
+""
             "",
-            "Name: Haleemah Malik",
-            "Status: Student (yes, still surviving)",
-            "Location: Pakistan — proud patriot, zero apologies",
-            "Current vibe: writer, baker, part-time chaos engineer",
-            "",
-            "I build games in C++, write 500-page novels, and somehow",
-            "still show up on the Dean's List. Make it make sense.",
-            "",
-            "Federal Board 3rd position holder — twice. FAST Dean's List.",
-            "So yes, I can academically perform and emotionally unravel.",
-            "",
-            "Side quests unlocked:",
-            "  • Author of The Sky We Own",
-            "  • Blogger on Aware Pakistan",
-            "  • Baker (my kitchen has a higher success rate than my sleep schedule)",
-            "  • Basic Arabic, Sarf & Nahaw (still learning, still trying)",
-            "",
-            "Pick a file from the explorer. I promise it's readable text,",
-            "not fake TypeScript. You're welcome."
+"Somewhere between a developer, a writer, and a curious mind",
+"who enjoys figuring out how things work.",
+"",
+"This little corner is a collection of things I've built, learned,",
+"and explored along the way."
           ]
         },
         {
