@@ -525,19 +525,19 @@ html, body {
   }
 
   .sidebar {
-  position: absolute;
-  left: var(--activity-width);
-  top: calc(var(--title-height) + var(--prompt-height));
-  bottom: var(--status-height);
-  z-index: 100;
-  width: 220px;
-  transform: translateX(-100%);
-  transition: transform 0.2s;
-  box-shadow: 4px 0 24px rgba(0, 0, 0, 0.5);
-}
+    position: absolute;
+    left: var(--activity-width);
+    top: calc(var(--title-height) + var(--prompt-height));
+    bottom: var(--status-height);
+    z-index: 100;
+    width: 220px;
+    transform: translateX(calc(-100% - var(--activity-width)));
+    transition: transform 0.2s;
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.5);
+  }
 
   .sidebar.open {
-   transform: translateX(calc(-100% - var(--activity-width)));
+    transform: translateX(0);
   }
 }
 
