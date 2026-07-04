@@ -114,7 +114,7 @@ function setupMobileSidebarDismiss() {
     ) {
       closeSidebar();
     }
-  });
+  }, true);   // ← added: capture phase, runs before renderActivityBar() wipes the button
 }
 
 function applyMeta() {
