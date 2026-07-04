@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // or just leave this empty if your app already inits on DOMContentLoaded separately
   });
 });
+
 const ICONS = {
   user: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>`,
   code: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`,
@@ -72,6 +73,8 @@ const FILE_ICONS = {
   default: '📄',
 };
 
+const MOBILE_BREAKPOINT = 560;
+
 let data = null;
 let activeSection = 'about';
 let openTabs = [];
@@ -84,6 +87,34 @@ async function init() {
   renderActivityBar();
   renderExplorer();
   openFile('welcome');
+  setupMobileSidebarDismiss();
+}
+
+function isMobile() {
+  return window.innerWidth <= MOBILE_BREAKPOINT;
+}
+
+function openSidebar() {
+  document.getElementById('sidebar').classList.add('open');
+}
+
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+}
+
+function setupMobileSidebarDismiss() {
+  document.addEventListener('click', (e) => {
+    const sidebar = document.getElementById('sidebar');
+    const activityBar = document.getElementById('activityBar');
+    if (
+      isMobile() &&
+      sidebar.classList.contains('open') &&
+      !sidebar.contains(e.target) &&
+      !activityBar.contains(e.target)
+    ) {
+      closeSidebar();
+    }
+  });
 }
 
 function applyMeta() {
@@ -150,6 +181,12 @@ function switchSection(sectionId) {
     const alreadyOpen = section.files.find((f) => openTabs.includes(f.id));
     openFile(alreadyOpen ? alreadyOpen.id : section.files[0].id);
   }
+
+  // Reveal the sidebar on mobile when a section is picked from the activity bar,
+  // since it's off-canvas by default below the 560px breakpoint.
+  if (isMobile()) {
+    openSidebar();
+  }
 }
 
 function renderExplorer() {
@@ -187,6 +224,12 @@ function openFile(fileId) {
   renderTabs();
   renderEditor(found.file);
   updatePrompt(found.file.name);
+
+  // Auto-close the sidebar on mobile once a file is picked, so it doesn't
+  // sit on top of the editor with no way to dismiss it.
+  if (isMobile()) {
+    closeSidebar();
+  }
 }
 
 function closeTab(fileId, e) {
