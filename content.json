@@ -36,9 +36,6 @@
             "I like creating problems for solutions:",
             "breaking things, fixing things, and learning why they broke.",
             "",
-            "Somewhere between a developer, a writer, and a curious mind",
-            "I am someone who enjoys figuring out HoW things work.",
-            "",
             "This little corner is a collection of things I've built, learned,",
             "and explored along the way."
           ]
@@ -47,7 +44,7 @@
           "id": "education",
           "name": "education.txt",
           "lines": [
-            "THE H-11 CHRONICLES: ",
+            "Things I Paid to Learn: ",
             "",
             "The only thing that interferes with my learning,",
             "is my education - Albert Einstein",
@@ -58,9 +55,6 @@
             "from EMS High School, to Punjab College Hill House,",
             "and now BSCS at FAST-NUCES.",
             "",
-            "At this point, even the H-11 graveyard is part of the journey.",
-            "",
-            "(or possibly the end of it, stay tuned for updates)"
           ]
         },
         {
@@ -86,10 +80,7 @@
             "",
             "Languages:",
             "  English · Urdu · Arabic (basic) · Sarf · Nahaw",
-            "",
-            "Other:",
-            "  Baking — my backup career if computers stop cooperating",
-            "  Patriotism — built-in feature, not an optional plugin"
+            ""
           ]
         }
       ]
@@ -109,12 +100,11 @@
             "TUMBLE POP CLONE",
             "================",
             "",
-            "A 2D pixel-art platformer inspired by the arcade classic.",
-            "Ghosts, skeletons, floating platforms, and questionable life choices.",
+            "A C++ recreation of the classic TumblePop arcade game, built with",
+            "object-oriented programming and featuring animations",
+            "enemy AI, collision detection, collectibles, and score tracking",
             "",
             "Stack: C++ · Linux (Ubuntu)",
-            "",
-            "Built from scratch because apparently sleep is optional.",
             "",
             "[ Drop screenshot in assets/tumble-pop.png ]"
           ]
