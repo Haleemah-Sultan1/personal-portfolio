@@ -158,6 +158,7 @@
         {
           "id": "text-editor",
           "name": "text-editor.cpp",
+           "image": "assets/text-editor.png",
          "lines": [
   "TEXT EDITOR",
   "",
