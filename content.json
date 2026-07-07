@@ -181,17 +181,25 @@
         {
           "id": "golden-era-script",
           "name": "golden-era.ms",
-          "lines": [
-            "THE GOLDEN ERA OF MUSLIMS — SCRIPT",
-            "==================================",
-            "",
-            "Best thing I've ever written. Not up for debate.",
-            "",
-            "A historical script exploring the golden era of Muslim civilization.",
-            "More passion in this file than in most of my semester projects combined.",
-            "",
-            "[ Add link or details in content.json when you're ready to share ]"
-          ]
+          {
+  "id": "golden-era-script",
+  "name": "golden-era.ms",
+  "url": "assets/golden-era-of-muslims-script.pdf",
+  "lines": [
+    "THE GOLDEN ERA OF MUSLIMS — SCRIPT",
+    "",
+    "A courtroom drama I wrote for Talent Show 2022, putting Newton,",
+    "Descartes, and a Zionist propagandist on trial for stealing credit",
+    "from Muslim scientists of the golden era.",
+    "",
+    "A tiny excerpt:",
+    "\"Perhaps Newton's ideas did not fall from an apple tree, instead",
+    "they fell from the great minds of Muslim scientists before them.\"",
+    "",
+    "Read the full script:",
+    "assets/golden-era-of-muslims-script.pdf"
+  ]
+}
         }
       ]
     },
