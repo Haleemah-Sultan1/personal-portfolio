@@ -114,7 +114,7 @@ function setupMobileSidebarDismiss() {
     ) {
       closeSidebar();
     }
-  }, true);   // ← added: capture phase, runs before renderActivityBar() wipes the button
+  }, true);   // ← capture phase, runs before renderActivityBar() wipes the button
 }
 
 function applyMeta() {
@@ -286,6 +286,12 @@ function linkifyLine(line) {
   if (emailMatch) {
     const email = emailMatch[1];
     return line.replace(email, `<a href="mailto:${email}">${email}</a>`);
+  }
+  // Relative asset paths (e.g. assets/golden-era-of-muslims-script.pdf) also become clickable links
+  const relativeMatch = line.match(/^(assets\/[^\s]+\.(pdf|png|jpg|jpeg))$/);
+  if (relativeMatch) {
+    const path = relativeMatch[1];
+    return `<a href="${path}" target="_blank" rel="noopener">${path}</a>`;
   }
   return escapeHtml(line);
 }
