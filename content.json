@@ -119,7 +119,6 @@
           "image": "assets/metal-slug.png",
           "lines": [
   "METAL SLUG–STYLE GAME",
-  "=====================",
   "",
   "Retro-inspired side-scrolling shooter built entirely in C++.",
   "",
@@ -132,44 +131,52 @@
   "• Object-Oriented architecture & modular game systems",
   "",
   "Stack: C++ · OOP · Git · GitHub · Visual Studio",
-  "",
-
-  
+  "" 
 ]
         },
         {
           "id": "aakhri-mor",
           "name": "aakhri-mor.cpp",
           "image": "assets/aakhri-mor.png",
-          "lines": [
-            "آخری موڑ — AAKHRI MOR",
-            "=====================",
-            "",
-            "\"The Last Turn\" — a game set on the streets of Pakistan.",
-            "Truck art, rickshaws, dhabas, and that one vendor who definitely",
-            "overcharges for apples. Culturally accurate. Emotionally devastating.",
-            "",
-            "Stack: C++ · Vectors · VS Code · Git · GitHub",
-            "",
-            "Probably the most Pakistani thing I've ever compiled.",
-            "",
-            "[ Drop screenshot in assets/aakhri-mor.png ]"
-          ]
+         "lines": [
+         "آخری موڑ — AAKHRI MOR",
+  "",
+  "\"The Last Turn\" — an original game inspired by the streets of Pakistan.",
+  "",
+  "• Custom-designed sprites styled around Pakistani culture",
+  "• Handcrafted environments featuring truck art, rickshaws & dhabas",
+  "• Original gameplay inspired by local stories and everyday life",
+  "• Built with modular C++ systems using vectors and OOP principles",
+  "• Version-controlled with Git & GitHub throughout development",
+  "",
+  "Stack: C++ · OOP · STL Vectors · Git · GitHub · VS Code",
+  "",
+  "\"Probably the most Pakistani thing I've ever compiled.\"",
+  ""
+         ]
         },
         {
           "id": "text-editor",
           "name": "text-editor.cpp",
-          "lines": [
-            "TEXT EDITOR",
-            "===========",
-            "",
-            "A custom text editor built in C++.",
-            "Because why use Notepad when you can suffer and build your own?",
-            "",
-            "Stack: C++",
-            "",
-            "[ Add a link or screenshot in content.json when ready ]"
-          ]
+         "lines": [
+  "TEXT EDITOR",
+  "===========",
+  "",
+  "A feature-rich text editor built from scratch in C++.",
+  "",
+  "• Fast search & keyword highlighting",
+  "• Text alignment & formatting tools",
+  "• Heuristic scoring for text analysis",
+  "• File creation, loading & saving",
+  "• Cursor navigation & editing operations",
+  "• Undo/redo and clipboard utilities",
+  "• Modular Object-Oriented architecture",
+  "",
+  "Stack: C++ · OOP · STL · File Handling",
+  "",
+  "\"Because opening Notepad wasn't challenging enough.\"",
+  ""
+         ]
         },
         {
           "id": "golden-era-script",
