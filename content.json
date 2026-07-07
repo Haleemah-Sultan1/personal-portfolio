@@ -96,18 +96,22 @@
           "id": "tumble-pop",
           "name": "tumble-pop.cpp",
           "image": "assets/tumble-pop.png",
-          "lines": [
-            "TUMBLE POP CLONE",
-            "================",
-            "",
-            "A C++ recreation of the classic TumblePop arcade game, built with",
-            "object-oriented programming and featuring animations",
-            "enemy AI, collision detection, collectibles, and score tracking",
-            "",
-            "Stack: C++ · Linux (Ubuntu)",
-            "",
-            "[ Drop screenshot in assets/tumble-pop.png ]"
-          ]
+        "lines": [
+  "TUMBLE POP CLONE",
+  "",
+  "A C++ recreation of the classic TumblePop arcade game built from scratch.",
+  "",
+  "• Enemy AI & movement logic",
+  "• Collision detection & game physics",
+  "• Collectibles, scoring & lives system",
+  "• Multiple levels & game state management",
+  "• File handling for persistent high scores",
+  "• Pointers and Dynamic memory Allocation",
+  "• Logic building and animations",
+  "",
+  "Stack: C++ · OOP · Linux (Ubuntu)",
+  ""
+]
         },
         {
           "id": "metal-slug",
