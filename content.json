@@ -118,18 +118,24 @@
           "name": "metal-slug.cpp",
           "image": "assets/metal-slug.png",
           "lines": [
-            "METAL SLUG — STYLE GAME",
-            "=======================",
-            "",
-            "Side-scrolling action shooter with that retro military-industrial",
-            "aesthetic. Pier, submarines, boss bars — the whole deal.",
-            "",
-            "Stack: C++ · OOP · Git · GitHub · Visual Studio",
-            "",
-            "We learned OOP the hard way: by making things explode.",
-            "",
-            "[ Drop screenshot in assets/metal-slug.png ]"
-          ]
+  "METAL SLUG–STYLE GAME",
+  "=====================",
+  "",
+  "Retro-inspired side-scrolling shooter built entirely in C++.",
+  "",
+  "• Animated sprites & frame-based rendering",
+  "• 3 handcrafted levels & boss encounters",
+  "• Enemy AI, collision detection & hitboxes",
+  "• Procedural terrain generation using Perlin Noise",
+  "• FFT-powered audio visualization & sound manipulation",
+  "• Built-in Developer Mode",
+  "• Object-Oriented architecture & modular game systems",
+  "",
+  "Stack: C++ · OOP · Git · GitHub · Visual Studio",
+  "",
+
+  
+]
         },
         {
           "id": "aakhri-mor",
