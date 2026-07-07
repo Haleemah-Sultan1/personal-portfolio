@@ -96,110 +96,106 @@
           "id": "tumble-pop",
           "name": "tumble-pop.cpp",
           "image": "assets/tumble-pop.png",
-        "lines": [
-  "TUMBLE POP CLONE",
-  "",
-  "A C++ recreation of the classic TumblePop arcade game built from scratch.",
-  "",
-  "• Enemy AI & movement logic",
-  "• Collision detection & game physics",
-  "• Collectibles, scoring & lives system",
-  "• Multiple levels & game state management",
-  "• File handling for persistent high scores",
-  "• Pointers and Dynamic memory Allocation",
-  "• Logic building and animations",
-  "",
-  "Stack: C++ · OOP · Linux (Ubuntu)",
-  ""
-]
+          "lines": [
+            "TUMBLE POP CLONE",
+            "",
+            "A C++ recreation of the classic TumblePop arcade game built from scratch.",
+            "",
+            "• Enemy AI & movement logic",
+            "• Collision detection & game physics",
+            "• Collectibles, scoring & lives system",
+            "• Multiple levels & game state management",
+            "• File handling for persistent high scores",
+            "• Pointers and Dynamic memory Allocation",
+            "• Logic building and animations",
+            "",
+            "Stack: C++ · OOP · Linux (Ubuntu)",
+            ""
+          ]
         },
         {
           "id": "metal-slug",
           "name": "metal-slug.cpp",
           "image": "assets/metal-slug.png",
           "lines": [
-  "METAL SLUG–STYLE GAME",
-  "",
-  "Retro-inspired side-scrolling shooter built entirely in C++.",
-  "",
-  "• Animated sprites & frame-based rendering",
-  "• 3 handcrafted levels & boss encounters",
-  "• Enemy AI, collision detection & hitboxes",
-  "• Procedural terrain generation using Perlin Noise",
-  "• FFT-powered audio visualization & sound manipulation",
-  "• Built-in Developer Mode",
-  "• Object-Oriented architecture & modular game systems",
-  "",
-  "Stack: C++ · OOP · Git · GitHub · Visual Studio",
-  "" 
-]
+            "METAL SLUG–STYLE GAME",
+            "",
+            "Retro-inspired side-scrolling shooter built entirely in C++.",
+            "",
+            "• Animated sprites & frame-based rendering",
+            "• 3 handcrafted levels & boss encounters",
+            "• Enemy AI, collision detection & hitboxes",
+            "• Procedural terrain generation using Perlin Noise",
+            "• FFT-powered audio visualization & sound manipulation",
+            "• Built-in Developer Mode",
+            "• Object-Oriented architecture & modular game systems",
+            "",
+            "Stack: C++ · OOP · Git · GitHub · Visual Studio",
+            ""
+          ]
         },
         {
           "id": "aakhri-mor",
           "name": "aakhri-mor.cpp",
           "image": "assets/aakhri-mor.png",
-         "lines": [
-         "آخری موڑ — AAKHRI MOR",
-  "",
-  "\"The Last Turn\" — an original game inspired by the streets of Pakistan.",
-  "",
-  "• Custom-designed sprites styled around Pakistani culture",
-  "• Handcrafted environments featuring truck art, rickshaws & dhabas",
-  "• Original gameplay inspired by local stories and everyday life",
-  "• Built with modular C++ systems using vectors and OOP principles",
-  "• Version-controlled with Git & GitHub throughout development",
-  "",
-  "Stack: C++ · OOP · STL Vectors · Git · GitHub · VS Code",
-  "",
-  "\"Probably the most Pakistani thing I've ever compiled.\"",
-  ""
-         ]
+          "lines": [
+            "آخری موڑ — AAKHRI MOR",
+            "",
+            "\"The Last Turn\" — an original game inspired by the streets of Pakistan.",
+            "",
+            "• Custom-designed sprites styled around Pakistani culture",
+            "• Handcrafted environments featuring truck art, rickshaws & dhabas",
+            "• Original gameplay inspired by local stories and everyday life",
+            "• Built with modular C++ systems using vectors and OOP principles",
+            "• Version-controlled with Git & GitHub throughout development",
+            "",
+            "Stack: C++ · OOP · STL Vectors · Git · GitHub · VS Code",
+            "",
+            "\"Probably the most Pakistani thing I've ever compiled.\"",
+            ""
+          ]
         },
         {
           "id": "text-editor",
           "name": "text-editor.cpp",
-           "image": "assets/text-editor.png",
-         "lines": [
-  "TEXT EDITOR",
-  "",
-  "A feature-rich text editor built from scratch in C++.",
-  "",
-  "• Fast search & keyword highlighting",
-  "• Text alignment & formatting tools",
-  "• Heuristic scoring for text analysis",
-  "• File creation, loading & saving",
-  "• Cursor navigation & editing operations",
-  "• Undo/redo and clipboard utilities",
-  "• Modular Object-Oriented architecture",
-  "",
-  "Stack: C++ · OOP · STL · File Handling",
-  "",
-  "\"Because opening Notepad wasn't challenging enough.\"",
-  ""
-         ]
+          "image": "assets/text-editor.png",
+          "lines": [
+            "TEXT EDITOR",
+            "",
+            "A feature-rich text editor built from scratch in C++.",
+            "",
+            "• Fast search & keyword highlighting",
+            "• Text alignment & formatting tools",
+            "• Heuristic scoring for text analysis",
+            "• File creation, loading & saving",
+            "• Cursor navigation & editing operations",
+            "• Undo/redo and clipboard utilities",
+            "• Modular Object-Oriented architecture",
+            "",
+            "Stack: C++ · OOP · STL · File Handling",
+            "",
+            "\"Because opening Notepad wasn't challenging enough.\"",
+            ""
+          ]
         },
         {
           "id": "golden-era-script",
           "name": "golden-era.ms",
-          {
-  "id": "golden-era-script",
-  "name": "golden-era.ms",
-  "url": "assets/golden-era-of-muslims-script.pdf",
-  "lines": [
-    "THE GOLDEN ERA OF MUSLIMS — SCRIPT",
-    "",
-    "A courtroom drama I wrote for Talent Show 2022, putting Newton,",
-    "Descartes, and a Zionist propagandist on trial for stealing credit",
-    "from Muslim scientists of the golden era.",
-    "",
-    "A tiny excerpt:",
-    "\"Perhaps Newton's ideas did not fall from an apple tree, instead",
-    "they fell from the great minds of Muslim scientists before them.\"",
-    "",
-    "Read the full script:",
-    "assets/golden-era-of-muslims-script.pdf"
-  ]
-}
+          "url": "assets/golden-era-of-muslims-script.pdf",
+          "lines": [
+            "THE GOLDEN ERA OF MUSLIMS — SCRIPT",
+            "",
+            "A courtroom drama I wrote for Talent Show 2022, putting Newton,",
+            "Descartes, and a Zionist propagandist on trial for stealing credit",
+            "from Muslim scientists of the golden era.",
+            "",
+            "A tiny excerpt:",
+            "\"Perhaps Newton's ideas did not fall from an apple tree, instead",
+            "they fell from the great minds of Muslim scientists before them.\"",
+            "",
+            "Read the full script:",
+            "assets/golden-era-of-muslims-script.pdf"
+          ]
         }
       ]
     },
