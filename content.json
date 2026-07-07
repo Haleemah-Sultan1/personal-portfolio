@@ -160,7 +160,6 @@
           "name": "text-editor.cpp",
          "lines": [
   "TEXT EDITOR",
-  "===========",
   "",
   "A feature-rich text editor built from scratch in C++.",
   "",
